@@ -1,8 +1,15 @@
 [package]
 name = "crates-io-parser"
+description = "Fill me!"
 version = "0.1.0"
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Alex Black <wa7@sa34.cx>"]
+license = "MIT"
+repository = "https://github.com/wa7sa34cx/crates-io-parser"
+keywords = ["parser"]
+readme = "README.md"
 
 [dependencies]
+anyhow = "1.0"
+reqwest = "0.11"
+tokio = { version = "1", features = ["full"] }
